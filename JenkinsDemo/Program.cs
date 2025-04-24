@@ -6,7 +6,7 @@ namespace JenkinsDemo
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Console.WriteLine2("Hello World!");
         }
     }
 }
