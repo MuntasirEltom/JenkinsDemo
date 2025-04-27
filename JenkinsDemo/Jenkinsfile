@@ -1,13 +1,4 @@
-﻿#pipeline {
-#    agent any 
-#    stages {
- #       stage('Stage 1') {
-#            steps {
-#                echo 'Jenkins Demo Pipline from Jenkins File!' 
-#            }
-#        }
-#    }
-#}
+﻿
 
 stage ('Clean workspace') {
   steps {
