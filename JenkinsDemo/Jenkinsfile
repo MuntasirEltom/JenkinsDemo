@@ -4,8 +4,12 @@
                 echo 'Hello world!' 
             }
         }*/
-        stage('Clean Workspace'){
+       node{
+       stages{
+       stage('Clean Workspace'){
             steps{
                 cleanWs()
             }
         }
+       }
+      }
